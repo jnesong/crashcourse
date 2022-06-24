@@ -51,4 +51,24 @@ X Early Programming
 
 
 
+XVII Integrate Circuits & Moore’s Law
+- 1940s-1960s, every computer was built of discrete components
+    - Tyranny of numbers
+- 1950s, transistors became commercially available (smaller, faster, more reliable than vacuum tubes). Inside the computers were still a tangle of wires.
+- 1958 Jack Kilby demonstrated integrated circuits (ICs), many components in one
+- 1959 Robert Nyce used silicon to create ICs, father of modern ICs
+- ICs are legos for computer engineers, still must be wired together
+- PCBs (printed circuit boards), can be mass manufactured with all wires etched in to connect ICs together. Also smaller, cheaper, more reliable.
+- Photolithography - uses light to transfer complex patterns to a material, like a semiconductor.
+    - Used to create complex circuits
+    - Making transistors 1) silicon wafer base 2) oxide layer - protective coating 3) photoresist - when exposed to light, the chemical becomes soluble 4) photomask - pattern to be transferred onto the wafer 5) light 6) using acid/other chemicals areas can be washed away to create conduction paths 7) doping - high temperature gas like phosphorus 8) another oxide layer 9) another photoresist 10) another photomask 11) light 12) chemical wash 13) dope that converts silicon into a different form…. Timing is very important. >> channels (repeat photo resist and mask), metalization, photoresist, photomask, light, chemical wash
+- Silicon is a semiconductor - a material that can sometimes conduct electricity and other times not, also abundant (¼ of the earth’s crust), stable/reliable
+- 1965 Gordon Moore - Moore’s Law refers to the trend that approximately every 2 years, thanks to advances in materials and manufacturing, you could fit twice the number of transistors into the same amount of space.
+- IC prices also decreased dramatically, smaller transistors also saves power and results in faster clock speeds
+- 1968, Gordon Moore and Robery Noyce founded a company - Intel - the largest chip maker today. 
+- Intel 4004 was released in 1971 - the first microprocessor, contained 2,300 transistors
+- By 2006, one IC contained one billion transistors. Today 60 billion are packed into a chip. 
+- Starting in the 1970s, very-large-scale-integration, or VLSI software, had been used to automatically generate chip designs instead. Marks the 4th gen of computers. 
+- We are now hitting two limitations (as of june 2017) - 1) how fine photomask features can be 2) quantum tunneling - when electrons can jump the gap causing transistor leaks
+
 */
