@@ -32,5 +32,23 @@ IX Advanced CPU Designs
 - Super computers are for monster calculations - in 2017 the Sunway TaiHuLight contains 40,960 CPUs each with 256 cores
 - Conclusion: computer processors have gotten both faster and more sophisticated, employing tricks to squeeze out more computations per clock cycle. 
 
+X Early Programming
+- Many consider Jacquard’s textile loom to be one of the earliest forms of programing
+- Punched cards turned out to be a cheap, reliable and fairly human-readable way to store data
+- But early tabulating (punch card) machines are not truly computers as they can only do one thing, their operation was fixed and not programmable
+- Later tabulating machines had control panels/plugboards which required rewiring each time a different program needed to be run >> led to swappable boards
+    - Plugboard are complicated to program, could take 3 weeks
+- Eniac 1946 : world’s first general purpose electronic computer
+- Late 1940s to 50s, stored-program computers allowed programs to be stored entirely in a computer’s memory rather than on plugboards
+- Von Neumann Architecture - unifying programming data into a single shared memory
+    - Baby 1948, very first Von Neumann stored-program computer
+    - Punch cards were still used to load memory
+    - 62,500 punch cards == 5 megabytes data
+    - Punch paper tape >> hard drives >> CDs
+- 1950s-60s Panel programming - switches and buttons instead of plugs
+    - Altair 8800 Computer
+    - Professionals or technology enthusiasts who understood the hardware 
+
+
 
 */
