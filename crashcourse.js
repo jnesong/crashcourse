@@ -49,7 +49,88 @@ X Early Programming
     - Altair 8800 Computer
     - Professionals or technology enthusiasts who understood the hardware 
 
+XI The First Programming Languages
+- Softer medium (than hardware) >> software
+- First 4 bits of instruction is the operation code/ OPCODE
+- Machine language/machine code: binary code
+- Pseudo code >> mnemonics, operands >> binary
+- Assembler: reusable helper programs, in binary, that read in text based instructions and assemble them to output binary
+- A-0: Arithmetic Language version 0, the first high-level programming language, designed by Dr. Grace Hopper
+    - Assembly languages have one-to-one mapping whereas a single line of a high-level programming language may result in dozens of instructions for the CPU
+- Compiler: converts high-level programming languages to low-level language like assembly or binary code 
+    - 1952 the first was built by Dr. Grace Hopper but faced skepticism 
+- Fortran (formula translation), 1957 released by IBM
+- Most programming languages of the 1950s could only run one a specific type of computer
+- 1959 - the Committee on Data Systems Languages was formed, advised by Dr. Grace Hopper
+    - Developed a common programming language - COBOL
+    - Write once, run anywhere
+- Programming languages reduced barriers to entry
+- 1960s-90s Golden era in programming languages
 
+XII Programming Basics
+- Initializing variables - setting initial values
+- Control flow statements, e.g. IF statements
+- Conditional loops e.g. WHILE loops, FOR loops
+- Functions and methods 
+- Libraries - prewritten functions by expert coders, made efficient and rigorously tested
+
+XIII Algorithms
+- The specific steps used to complete the computations
+- Generally the less steps, the better, but sometimes memory use matters more
+- Sorting
+    - Selection sort is a double for loop, Big O of n squared
+    - Merge sort, 1) check if array is greater than 1, if so then split into halves 2) starting at 1:1 values, sort values and merge sorted arrays until all numbers are merged, Big O is n times the log of n
+- Big O notation denotes the complexity of a function, how fast an algo will run
+- Graph search
+    - Edsger Dijkstra’s algorithm 1) starts with the node with the lowest value… Big O of n times log n plus 1 (number of nodes, times the log of the number of nodes, plus the number of lines)
+
+XIV Data Structures
+- Arrays (strings)
+- Matrix, array of arrays
+- Struct (node)
+- Linked list - dynamically lengthened or shortened
+- Queues and stacks are built upon linked lists
+- Trees - nodes with two or more pointers
+    - Root, children, parent, leaf nodes
+    - One way path
+- Graph - data that loops
+- The right choice of data structures can make the job a lot easier
+- Many libraries come with their own data structures 
+
+XV Alan Turing
+- Decision Problem - is there an algorithm that takes, as input, a statement written in formal logic, and produces a “yes” or “no” answer that’s always accurate?
+- Turing machine - theoretical computing device equipped with an infinitely long memory tape which stores symbols and a read/write head device that modifies symbols on the tape. Also a state variable and a set of rules that describes what the machine does given a state and the current symbol the head is reading. 
+    - Proved that this method could perform any computation if given enough time and memory.
+    - There’s no computer more powerful than a Turing machine. A computer that is as powerful is called a Turing Complete and includes all modern devices. 
+- Halting problem - is there an algorithm that can determine, given a description of a Turing machine and the input from its tape, whether the machine will run forever or halt?
+    - No. Proof that not all problems can be solved by computation. 
+- Worked on decrypting the Enigma machine
+- Also contributed to artificial intelligence 
+- Turing Test - a computer would deserve to be called intelligent if it could deceive a human into believing that it was human. Also known as captcha.
+
+XVI Software Engineering
+- Margaret Hamilton
+- Object Oriented Programming - packing up functional units into nested objects
+- Documentation (READMEs, comments)
+    - For sharing and remembering
+- API (application programming interface)  - the way collaborating programmers interact across parts of a code base
+    - Access is controlled by PRIVATE specifications
+    - Private - only functions inside that object can call it
+- IDE (integrated development environments)
+    - Text editors
+    - Organizers
+    - Compilers and runners
+    - Error tracking/debugging
+- Most programmers spend 70-80% of their time debugging
+- Source Control/Version Control/Revision Control
+    - Repositories - code stored on centralized servers
+    - Repos can be checked out to their local computer
+    - Commiting - checking code back in
+    - Keeps track of all changes
+    - Roll back abilities
+- QA (Quality Assurance)
+    - Alpha is internally tested
+    - Beta versions use the public to QA
 
 XVII Integrate Circuits & Moore’s Law
 - 1940s-1960s, every computer was built of discrete components
